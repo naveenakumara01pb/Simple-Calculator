@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="sc.css" />
+  </head>
+
+  <body>
+    <div id="calculator-container">
+      <input id="display" readonly />
+
+      <div id="keys">
+        <button type="button" onclick="press('+')">+</button>
+
+        <button type="button" onclick="press('1')">1</button>
+        <button type="button" onclick="press('2')">2</button>
+        <button type="button" onclick="press('3')">3</button>
+        <button type="button" onclick="press('-')">-</button>
+
+        <button type="button" onclick="press('4')">4</button>
+        <button type="button" onclick="press('5')">5</button>
+        <button type="button" onclick="press('6')">6</button>
+        <button type="button" onclick="press('*')">x</button>
+
+        <button type="button" onclick="press('7')">7</button>
+        <button type="button" onclick="press('8')">8</button>
+        <button type="button" onclick="press('9')">9</button>
+        <button type="button" onclick="press('/')">/</button>
+
+        <button type="button" onclick="press('0')">0</button>
+        <button type="button" onclick="press('.')">.</button>
+
+        <button type="button" onclick="result()">=</button>
+        <button type="button" onclick="clearDisplay()">C</button>
+      </div>
+    </div>
+
+    <script src="sc.js"></script>
+  </body>
+</html>
